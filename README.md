@@ -1,10 +1,16 @@
 # timart_app
 
-A new Flutter project.
-
+This is a Flutter app designed to manage products, allowing users to add, retrieve, update, and delete products. The app uses the sqfentity package to interact with an SQLite database.
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A brief README that explains how i set up the app and the database connection:
+At the app level
+I created the product manager app using the 'flutter create timart_app' in my CMD environment. 
+I added all the needed dependencies as seen in the pub.yaml file, also used a version that would be compactible for all dependencies.
+From the instruction on the Sqfentity documentation i imported the products.g.dart file.
+I then created the productsController class where i implemented all my CRUD login and passed it to my UI using the Getx state management.
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
